@@ -13,5 +13,6 @@ public class datatypes {
 
     boolean b = true;
 
+    System.out.println(num+" "+sh);
   }
 }
