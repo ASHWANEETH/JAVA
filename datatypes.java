@@ -2,6 +2,8 @@ public class datatypes {
   public static void main(String[] args) {
     int num = 20;
 
+    int num_1 = 10_00_00_000; // can give underscore for counting numberes
+
     short sh = 10;
     byte by = 10;  //-128 to 127
     long l = 100l;
@@ -13,6 +15,6 @@ public class datatypes {
 
     boolean b = true;
 
-    System.out.println(num+" "+sh);
+    System.out.println(num+" "+sh+" "+by+" "+l+" ");
   }
 }
