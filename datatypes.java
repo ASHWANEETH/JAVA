@@ -12,7 +12,6 @@ public class datatypes {
     char c = 'k'; // '' no ""
 
     boolean b = true;
-    
-    System.out.println(num);
+
   }
 }
