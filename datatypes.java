@@ -14,10 +14,10 @@ public class datatypes {
     float f = 22.8f;
     double d = 22.8;
 
-    char c = 'k'; // '' no ""
+    char c = 'a'; // '' no ""
+    c++; //increment to b
 
     boolean b = true;
 
-    System.out.println(num+" "+sh+" "+by+" "+l+" ");
   }
 }
