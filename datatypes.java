@@ -2,6 +2,9 @@ public class datatypes {
   public static void main(String[] args) {
     int num = 20;
 
+    int binary = 0b1011; //11 binary
+    int hex = 0x7E; //hexadecimal
+
     int num_1 = 10_00_00_000; // can give underscore for counting numberes
 
     short sh = 10;
