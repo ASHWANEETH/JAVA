@@ -42,4 +42,17 @@ void main() {
     // Conditional (Ternary)
     int max = (a > b) ? a : b;   // choose larger value
 
+    // Bitwise operators (with examples)
+    int a = 10;     // 1010 in binary
+    int b = 6;      // 0110 in binary
+
+    a & b;          // 2   --> 1010 & 0110 = 0010 (AND)
+    a | b;          // 14  --> 1010 | 0110 = 1110 (OR)
+    a ^ b;          // 12  --> 1010 ^ 0110 = 1100 (XOR)
+    ~a;             // -11 --> ~(1010) = ...11110101 (NOT - flips all bits)
+
+    a << 1;         // 20  --> 1010 << 1  = 10100  (left shift)
+    a >> 1;         // 5   --> 1010 >> 1  = 0101   (right shift - keeps sign)
+    a >>> 1;        // 5   --> 1010 >>> 1 = 0101   (unsigned right shift)
+
 }
