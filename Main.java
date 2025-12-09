@@ -1,5 +1,6 @@
 public class Main {
     public static void main(String[] args){
+        //0 based indexing;
         System.out.print("Hello");
         System.out.println("Hello"); // new line after print
 
@@ -8,7 +9,9 @@ public class Main {
             //string pool (for reusing the strings)
         //Stack memory --> each for each method; store variables;
 
-        //Data types ------------------------------------->(so not pure OOP)
+        //------------------------------------------------------------------------
+        // DATA TYPES (so not pure OOP)
+        //------------------------------------------------------------------------
         //byte(1byte (-128 to 127)); short(2); int(4); long(8);
         //float(4); double(8);
         //boolean(1bit); char(2bytes);
@@ -31,7 +34,9 @@ public class Main {
         short ee = (short)dd;
         byte ff = (byte)ee;
 
-        //String---------------------(non mutable)
+        //------------------------------------------------------------------------
+        //STRINGS (non mutable)
+        //------------------------------------------------------------------------
         String str = new String("Hello"); //(creates objects outside string-pool in heap)
         String str1 = "Hello"; //string literal stored in string-pool
         String str2 = "Hello";
@@ -45,7 +50,7 @@ public class Main {
         //str1.toUpperCase(); doesn't change original string
         str1 = str1.toUpperCase(); // creates new string and points to it.
 
-        //String Operations------------------------------------
+        //String Operations------------------------------------ :)
         String s = "hello";
         String t = "world";
         s.length(); // 5  --> length of string
