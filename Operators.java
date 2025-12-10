@@ -55,4 +55,6 @@ void main() {
     a >> 1;         // 5   --> 1010 >> 1  = 0101   (right shift - keeps sign)
     a >>> 1;        // 5   --> 1010 >>> 1 = 0101   (unsigned right shift)
 
+    Integer.toBinaryString(a);
+
 }

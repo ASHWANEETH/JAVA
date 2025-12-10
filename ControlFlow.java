@@ -22,9 +22,12 @@ void main() {
         case 2:
                 // code
             break;
-        default: // runs if no case matches
+        default: // runs if no case matches // not mandatory
                 // code
     }
+
+    // Conditional (Ternary)
+    int max = (a > b) ? a : b;   // choose larger value
 
     // FOR LOOP
     for (int i = 0; i < 5; i++) { // init; condition; update
