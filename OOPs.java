@@ -59,6 +59,8 @@ void main() {
     // Usage
     Dog d = new Dog();
     d.sound();   // inherited method
+    // Animal makes sound
+    d.bark();
     // Dog barks
 
     //=======================================================================
